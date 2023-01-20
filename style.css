@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+/* 768 is medium width */
+/*  medium and above it splits half */
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+/* pseudo selector 'before' not sure what(before the body silly), content is needed w/ it */
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+/* for the map */
